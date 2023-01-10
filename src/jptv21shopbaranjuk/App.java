@@ -100,7 +100,7 @@ public App(){
                     break;
             case 6:
                 System.out.println("Доход за все время");
-                historyManager.printListPurchases(histories);
+                System.out.println(historyManager.getProfite(histories));
                 break;
             case 7:
                 System.out.println("7.Добавить денег покупателю");

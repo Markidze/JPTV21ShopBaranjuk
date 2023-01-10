@@ -8,6 +8,8 @@ public class History {
     private Product product;
     private Customer customer;
     private Date takeOnProduct;
+    private int quantity;
+    private int history;
     
 
     public History() {
@@ -56,7 +58,20 @@ public class History {
                 ", ProductPriceHistory='" + ProductPriceHistory + '\'' +
                 '}';
     }
-    
-    
-    
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public int getHistory() {
+        return history;
+    }
+
+    public void setHistory(int history) {
+        this.history = history;
+    }
 }
